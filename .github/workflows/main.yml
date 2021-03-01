@@ -31,7 +31,7 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
         
-    - name: Build React JS Covid Tracker App
+    - name: Build React App
       run: sudo yarn build --unsafe-perm=true --allow-root
       
     - name: Install Surge
