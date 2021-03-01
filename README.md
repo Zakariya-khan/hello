@@ -14,5 +14,10 @@ Install yarn by
 build it by
 # yarn build
 
+tried to create action yml file 
+got eroors in intendation then fixed them
+got error(permission denied error) in build in action file  
+tried to solve it many times but was unable to solve it and limit got breach of deploying action file
+
 
  
