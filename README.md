@@ -8,5 +8,11 @@ Run it by using command:
 
 make changes in App.js file andrun it again for checking
 
+Install yarn by 
+# npm install --global yarn
+
+build it by
+# yarn build
+
 
  
