@@ -1,12 +1,25 @@
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
+import counterContext from "./CounterContext.js";
 
 const Child = () => {
-    let counterValue = useContext()
+    let counterValue = useContext(counterContext)
+    console.log(counterValue);
     return(
         <div>
             <h2>This is Child</h2>
+            <h2>Counter value is: {counterValue[0]}</h2>
+            <button onClick={()=> {counterValue[1](++counterValue[0])}}>Increament</button>
         </div>
     )
 
 }
 export default Child
+
+// const Child = () => { 
+//   return (
+//     <div>
+//       <h2>This is Child</h2>
+//     </div>
+//   );
+// };
+// export default Child;

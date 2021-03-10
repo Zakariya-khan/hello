@@ -1,8 +1,8 @@
 import React from 'react';
-
-function Parents(){
+import Child from './Child.js';
+const Parents = () => {
     return(
-    <h1> Hello </h1>
+    <h1> <Child /> </h1>
     )
 }
 export default Parents
