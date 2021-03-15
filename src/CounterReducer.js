@@ -2,7 +2,7 @@ const counterReducer = (state, action) => {
 
 
     switch (action) {
-    case "Increment":
+    case 'INCREMENT':
       return state + 1;
   }
 };
